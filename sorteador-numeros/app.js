@@ -7,7 +7,7 @@ function sortear() {
     let numero;
 
     if(de >= ate) {
-        alert("Erro! O campo 'Do número' deve ser inferior ao campo 'Até o número'. Verifique! ");
+        alert("Erro! O campo 'Do número' deve ser inferior ao campo 'Até o número'. Verifique imediatamente! ");
         return;
     }
     if( quantidade >(ate - de + 1)) { //solução para loop. Antes disso, caso o jogador colocasse os seguintes números/ ou equivalentes, entraria em loop. EX: Quantidade: 5 Do: 10 Até:13 
